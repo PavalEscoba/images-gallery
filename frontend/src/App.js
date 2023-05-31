@@ -1,7 +1,10 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+
 function App() {
     return (
         <section>
-            <h1 className="App">Images Gallery</h1> <p>Intial commit</p>
+            <Header title="ImGal" />
         </section>
     );
 }
